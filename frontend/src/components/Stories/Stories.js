@@ -278,7 +278,7 @@ export default function Stories() {
                   onClick={() => handleOpenMyStories()}
                   style={{ cursor: "pointer" }}
                   alt="Remy Sharp"
-                  src={user_Id == My_ID ? My_Img: userPhoto}
+                  src={My_Img}
                 />
               </Stack>
             </Avatar>
@@ -470,7 +470,7 @@ export default function Stories() {
                 >
                   <div className="show-story-user-information">
                     {" "}
-                    <img
+                    {/* <img
                       src={ user_Id == My_ID ? My_Img: userPhoto}
                       style={{
                         color: "black",
@@ -480,7 +480,7 @@ export default function Stories() {
                         borderRadius: "25px",
                         cursor: "pointer",
                       }}
-                    />
+                    /> */}
                     <h6 id="unstyled-modal-title" className="modal-title">
                       {userName}
                     </h6>
