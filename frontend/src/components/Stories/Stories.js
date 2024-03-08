@@ -278,7 +278,7 @@ export default function Stories() {
                   onClick={() => handleOpenMyStories()}
                   style={{ cursor: "pointer" }}
                   alt="Remy Sharp"
-                  src={My_Img}
+                  src={user_Id == My_ID ? My_Img: userPhoto}
                 />
               </Stack>
             </Avatar>
